@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Spider-weibo.iml" filepath="$PROJECT_DIR$/.idea/modules/Spider-weibo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Spider-weibo_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Spider-weibo_main.iml" group="Spider-weibo" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Spider-weibo_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Spider-weibo_test.iml" group="Spider-weibo" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/weibo/weibo.iml" filepath="$PROJECT_DIR$/.idea/modules/weibo/weibo.iml" group="weibo" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/weibo/weibo_main.iml" filepath="$PROJECT_DIR$/.idea/modules/weibo/weibo_main.iml" group="weibo" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/weibo/weibo_test.iml" filepath="$PROJECT_DIR$/.idea/modules/weibo/weibo_test.iml" group="weibo" />
+    </modules>
+  </component>
+</project>
