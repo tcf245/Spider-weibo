@@ -1,35 +1,60 @@
 package com.bfd.process;
 
-import org.apache.commons.io.FileUtils;
+import com.bfd.Tasks;
+import com.bfd.WorkCache;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
-import java.io.File;
-import java.io.IOException;
-
 /**
  * Created by BFD_303 on 2016/10/20.
  */
-public class ListProcess {
+public class ListProcess extends Processor {
 
-    public static void main(String[] args) {
-        try {
-            String html = FileUtils.readFileToString(new File(ListProcess.class.getClassLoader().getResource("list.html").getFile()));
-            Document doc = Jsoup.parse(html);
-            Elements elements = doc.select("div.WB_cardwrap");
-            System.out.println(elements.size());
-            for (Element e: elements) {
-                System.out.println(e.text());
-            }
+    @Override
+    public void setType(Tasks.Type type) {
+        super.setType(Tasks.Type.LIST);
+    }
 
+    @Override
+    void process(Tasks task) throws InterruptedException {
 
+        String html = task.getHtml();
+        Document doc = Jsoup.parse(html);
+        Elements elements = doc.select("div.WB_cardwrap");
 
-        } catch (IOException e) {
-            e.printStackTrace();
+        for (Element e : elements) {
+            String content = e.select("div.content p.comment_txt").text();
+            String name = e.select("div.content div.feed_content a.name_txt").text();
+
+            String time = e.select("div.feed_from a.W_textb").text();
+
+            Element feed = e.select("div.feed_action ul.feed_action_info").get(0);
+            String forward = feed.select("li:contains(转发)").text().replace("转发","");
+            String collect = feed.select("li:contains(收藏)").text().replace("收藏","");
+            String comment_count = feed.select("li:contains(评论)").text().replace("评论","");
+
+            task.put("content", content);
+            task.put("name", name);
+            task.put("time", time);
+            task.put("forward", forward);
+            task.put("collect", collect);
+            task.put("comment_count", comment_count);
+
+            String resultData = gson.toJson(task);
+
+            WorkCache.results.put(resultData);
         }
 
+        String nextpage = elements.select("div.W_pages span.list div.layer_menu_list ul").select("a[href]").text();
+        int pageSize = nextpage.split(" ").length;
+        if (task.isFirst) {
+            for (int i = 0; i < pageSize; i++) {
+                String url = "";
+                WorkCache.tasks.put(new Tasks(url, Tasks.Type.LIST, false));
+            }
+        }
 
     }
 

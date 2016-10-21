@@ -19,10 +19,10 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Spider-weibo_main" target="1.5" />
-      <module name="Spider-weibo_test" target="1.5" />
-      <module name="weibo_main" target="1.5" />
-      <module name="weibo_test" target="1.5" />
+      <module name="Spider-weibo_main" target="1.7" />
+      <module name="Spider-weibo_test" target="1.7" />
+      <module name="weibo_main" target="1.7" />
+      <module name="weibo_test" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
