@@ -12,4 +12,7 @@ public class WorkCache {
     public static int retry_times = 3;
     public static BlockingQueue<Tasks> tasks = new LinkedBlockingQueue<>();
     public static BlockingQueue<String> results = new LinkedBlockingQueue<>();
+    public static String charset = "utf-8";
+    public static String cookie;
+    public static String target = "etc/target";
 }

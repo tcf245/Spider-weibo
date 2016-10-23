@@ -16,12 +16,20 @@ public class Tasks {
     public boolean isFirst = false;
 
     public Tasks(String url, Type type,boolean isFirst) {
-        this.page.setUrl(url);
+        page = new Page(url);
         this.type = type;
         this.isFirst = isFirst;
     }
 
-    public void put(String key,Object value){
+    public Map<String, Object> getField() {
+        return field;
+    }
+
+    public void setField(Map<String, Object> field) {
+        this.field = field;
+    }
+
+    public void put(String key, Object value){
         field.put(key,value);
     }
 

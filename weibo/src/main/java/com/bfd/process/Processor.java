@@ -9,7 +9,7 @@ import com.google.gson.Gson;
 public abstract class Processor {
     private Tasks.Type type;
     public Gson gson = new Gson();
-    abstract void process(Tasks task) throws InterruptedException;
+    public abstract void process(Tasks task) throws InterruptedException;
 
 
     public Tasks.Type getType() {
