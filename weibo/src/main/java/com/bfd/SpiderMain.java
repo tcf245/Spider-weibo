@@ -76,10 +76,8 @@ public class SpiderMain {
                 WorkCache.tasks.put(new Tasks(url, Tasks.Type.LIST, true));
             }
         } catch (InterruptedException e) {
-            System.out.println("beng le ma ");
             e.printStackTrace();
         }catch (Exception e) {
-            System.out.println("da beng le ma ");
             e.printStackTrace();
         }
 
