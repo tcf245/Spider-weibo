@@ -32,7 +32,6 @@ public class SpiderMain {
             WorkCache.target = (String) pro.get("target");
             WorkCache.keywords = gson.fromJson("[\"光大银行\",\"黄金邮票\",\"理财早夜市\",\"阳光银行\",\"光大+信用卡\",\"光大+借记卡\",\"光大+理财\"]", List.class);
 
-
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -51,6 +50,7 @@ public class SpiderMain {
                 Tasks t = WorkCache.tasks.take();
                 String content = HttpUtils.httpGet(t.getUrl(), WorkCache.cookie, WorkCache.charset);
                 t.setHtml(content);
+
                 System.out.println("get content length is : " + content.length());
 
                 Processor p = new ListProcess();
@@ -80,7 +80,5 @@ public class SpiderMain {
         }catch (Exception e) {
             e.printStackTrace();
         }
-
-
     }
 }

@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="fe6e0059-b4ca-4f87-baba-6bdbd746dc49" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etc/crawl-config.properties" afterPath="$PROJECT_DIR$/etc/crawl-config.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weibo/src/main/java/com/bfd/SpiderMain.java" afterPath="$PROJECT_DIR$/weibo/src/main/java/com/bfd/SpiderMain.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weibo/src/main/java/com/bfd/process/ListProcess.java" afterPath="$PROJECT_DIR$/weibo/src/main/java/com/bfd/process/ListProcess.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weibo/src/main/java/com/bfd/utils/HttpUtils.java" afterPath="$PROJECT_DIR$/weibo/src/main/java/com/bfd/utils/HttpUtils.java" />
     </list>
     <ignored path="Spider-weibo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,8 +50,8 @@
       <file leaf-file-name="HttpUtils.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/weibo/src/main/java/com/bfd/utils/HttpUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2140">
-              <caret line="124" column="21" selection-start-line="124" selection-start-column="21" selection-end-line="124" selection-end-column="21" />
+            <state relative-caret-position="86">
+              <caret line="106" column="70" selection-start-line="106" selection-start-column="70" selection-end-line="106" selection-end-column="70" />
               <folding />
             </state>
           </provider>
@@ -56,18 +60,30 @@
       <file leaf-file-name="SpiderMain.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/weibo/src/main/java/com/bfd/SpiderMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1120">
-              <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+            <state relative-caret-position="262">
+              <caret line="59" column="13" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="target.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/etc/target.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ListProcess.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ListProcess.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/weibo/src/main/java/com/bfd/process/ListProcess.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="451">
-              <caret line="36" column="36" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
+            <state relative-caret-position="162">
+              <caret line="152" column="0" selection-start-line="152" selection-start-column="0" selection-end-line="152" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -75,16 +91,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Processor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/weibo/src/main/java/com/bfd/process/Processor.java">
+      <file leaf-file-name="StringUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/weibo/src/main/java/com/bfd/utils/StringUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#327#328#0" expanded="true" />
-                <element signature="e#354#355#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="193">
+              <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="20" selection-end-column="38" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -95,8 +107,36 @@
             <state relative-caret-position="360">
               <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#308#323#0" expanded="true" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#308#323#0" expanded="false" />
+                <element signature="e#559#560#0" expanded="false" />
+                <element signature="e#587#588#0" expanded="false" />
+                <element signature="e#642#643#0" expanded="false" />
+                <element signature="e#676#677#0" expanded="false" />
+                <element signature="e#724#725#0" expanded="false" />
+                <element signature="e#760#761#0" expanded="false" />
+                <element signature="e#796#797#0" expanded="false" />
+                <element signature="e#833#834#0" expanded="false" />
+                <element signature="e#862#863#0" expanded="false" />
+                <element signature="e#889#890#0" expanded="false" />
+                <element signature="e#927#928#0" expanded="false" />
+                <element signature="e#959#960#0" expanded="false" />
+                <element signature="e#990#991#0" expanded="false" />
+                <element signature="e#1027#1028#0" expanded="false" />
+                <element signature="e#1067#1068#0" expanded="false" />
+                <element signature="e#1106#1107#0" expanded="false" />
+                <element signature="e#1136#1137#0" expanded="false" />
+                <element signature="e#1172#1173#0" expanded="false" />
+                <element signature="e#1210#1211#0" expanded="false" />
+                <element signature="e#1247#1248#0" expanded="false" />
+                <element signature="e#1281#1282#0" expanded="false" />
+                <element signature="e#1314#1315#0" expanded="false" />
+                <element signature="e#1363#1364#0" expanded="false" />
+                <element signature="e#1407#1408#0" expanded="false" />
+                <element signature="e#1436#1437#0" expanded="false" />
+                <element signature="e#1463#1464#0" expanded="false" />
+                <element signature="e#1501#1502#0" expanded="false" />
+                <element signature="e#1533#1534#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -122,6 +162,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
@@ -565,7 +606,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/weibo/src/main/java/com/bfd/utils/HttpUtils.java" />
         <option value="$PROJECT_DIR$/weibo/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/weibo/src/main/resources/list.html" />
         <option value="$PROJECT_DIR$/weibo/build.gradle" />
@@ -576,8 +616,12 @@
         <option value="$PROJECT_DIR$/weibo/src/main/java/com/bfd/process/Processor.java" />
         <option value="$PROJECT_DIR$/weibo/src/main/resources/crawl-config.properties" />
         <option value="$PROJECT_DIR$/weibo/src/main/java/com/bfd/Tasks.java" />
-        <option value="$PROJECT_DIR$/weibo/src/main/java/com/bfd/SpiderMain.java" />
+        <option value="$PROJECT_DIR$/weibo/src/main/java/com/bfd/utils/StringUtils.java" />
+        <option value="$PROJECT_DIR$/etc/crawl-config.properties" />
         <option value="$PROJECT_DIR$/weibo/src/main/java/com/bfd/process/ListProcess.java" />
+        <option value="$PROJECT_DIR$/weibo/src/main/java/com/bfd/utils/HttpUtils.java" />
+        <option value="$PROJECT_DIR$/weibo/src/main/java/com/bfd/SpiderMain.java" />
+        <option value="$PROJECT_DIR$/etc/target.txt" />
       </list>
     </option>
   </component>
@@ -627,9 +671,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -637,10 +681,6 @@
               <option name="myItemId" value="Spider-weibo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -662,7 +702,91 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value=".idea" />
+              <option name="myItemId" value="weibo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Spider-weibo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Spider-weibo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weibo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Spider-weibo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Spider-weibo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weibo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Spider-weibo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Spider-weibo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weibo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bfd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Spider-weibo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Spider-weibo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="etc" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -677,6 +801,10 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.24585062" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/tcf24/Documents/Github/Spider-weibo/etc/target.txt" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -690,7 +818,20 @@
       <recent name="C:\Users\BFD_303\Documents\GitHub\Spider-weibo\weibo\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Gauge Execution.Specifications">
+  <component name="RunManager" selected="Application.SpiderMain">
+    <configuration default="false" name="Specifications" type="executeSpecs" factoryName="Gauge Execution" temporary="true">
+      <setting name="environment" value="" />
+      <setting name="specsToExecute" value="C:\Users\BFD_303\Documents\GitHub\Spider-weibo\specs" />
+      <setting name="tags" value="" />
+      <setting name="parallelNodes" value="" />
+      <setting name="execInParallel" value="false" />
+      <setting name="programParameters" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="moduleName" value="Spider-weibo" />
+      <envMap />
+      <setting name="rowsRange" value="" />
+      <method />
+    </configuration>
     <configuration default="false" name="SpiderMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -731,17 +872,24 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="Specifications" type="executeSpecs" factoryName="Gauge Execution" temporary="true">
-      <setting name="environment" value="" />
-      <setting name="specsToExecute" value="C:\Users\BFD_303\Documents\GitHub\Spider-weibo\specs" />
-      <setting name="tags" value="" />
-      <setting name="parallelNodes" value="" />
-      <setting name="execInParallel" value="false" />
-      <setting name="programParameters" value="" />
-      <setting name="workingDirectory" value="" />
-      <setting name="moduleName" value="Spider-weibo" />
-      <envMap />
-      <setting name="rowsRange" value="" />
+    <configuration default="false" name="StringUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.bfd.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.bfd.utils.StringUtils" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="weibo_main" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -1172,16 +1320,17 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <list size="3">
-      <item index="0" class="java.lang.String" itemvalue="Application.SpiderMain" />
-      <item index="1" class="java.lang.String" itemvalue="Application.ListProcess" />
-      <item index="2" class="java.lang.String" itemvalue="Gauge Execution.Specifications" />
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="Gauge Execution.Specifications" />
+      <item index="1" class="java.lang.String" itemvalue="Application.SpiderMain" />
+      <item index="2" class="java.lang.String" itemvalue="Application.ListProcess" />
+      <item index="3" class="java.lang.String" itemvalue="Application.StringUtils" />
     </list>
     <recent_temporary>
       <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Gauge Execution.Specifications" />
-        <item index="1" class="java.lang.String" itemvalue="Application.SpiderMain" />
-        <item index="2" class="java.lang.String" itemvalue="Application.ListProcess" />
+        <item index="0" class="java.lang.String" itemvalue="Application.SpiderMain" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ListProcess" />
+        <item index="2" class="java.lang.String" itemvalue="Application.StringUtils" />
       </list>
     </recent_temporary>
   </component>
@@ -1197,8 +1346,10 @@
       <updated>1476953601068</updated>
       <workItem from="1476953605340" duration="4150000" />
       <workItem from="1476972738384" duration="9615000" />
-      <workItem from="1477014434803" duration="12694000" />
-      <workItem from="1477273991947" duration="732000" />
+      <workItem from="1477014434803" duration="12563000" />
+      <workItem from="1477237231909" duration="8833000" />
+      <workItem from="1477276237527" duration="10050000" />
+      <workItem from="1477311768910" duration="3651000" />
     </task>
     <task id="LOCAL-00001" summary="company&#10;">
       <created>1477049831379</created>
@@ -1207,25 +1358,18 @@
       <option name="project" value="LOCAL" />
       <updated>1477049831379</updated>
     </task>
-    <task id="LOCAL-00002" summary="company&#10;">
-      <created>1477049854639</created>
+    <task id="LOCAL-00002" summary="Merge branch 'master' of https://github.com/tcf245/Spider-weibo&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;weibo/src/main/java/com/bfd/process/ListProcess.java&#10;&#10;home">
+      <created>1477246084802</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1477049854639</updated>
+      <updated>1477246084802</updated>
     </task>
-    <task id="LOCAL-00003" summary="company&#10;">
-      <created>1477274225699</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1477274225699</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27191000" />
+    <option name="totallyTimeSpent" value="48862000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1239,25 +1383,53 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40991735" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2090909" sideWeight="0.49014777" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21136364" sideWeight="0.49014777" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21136364" sideWeight="0.50985223" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44132233" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37685952" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48099172" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44132233" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32561985" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40991735" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21136364" sideWeight="0.49014777" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21136364" sideWeight="0.50985223" order="5" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -1272,53 +1444,12 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="company&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="company&#10;" />
+    <MESSAGE value="Merge branch 'master' of https://github.com/tcf245/Spider-weibo&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;weibo/src/main/java/com/bfd/process/ListProcess.java&#10;&#10;home" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/tcf245/Spider-weibo&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;weibo/src/main/java/com/bfd/process/ListProcess.java&#10;&#10;home" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/weibo/src/main/java/com/bfd/SpiderMain.java</url>
-          <line>47</line>
-          <properties />
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/weibo/src/main/java/com/bfd/SpiderMain.java</url>
-          <line>50</line>
-          <properties />
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/weibo/src/main/java/com/bfd/SpiderMain.java</url>
-          <line>55</line>
-          <properties />
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/weibo/src/main/java/com/bfd/process/ListProcess.java</url>
-          <line>30</line>
-          <properties />
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/weibo/src/main/java/com/bfd/process/ListProcess.java</url>
-          <line>32</line>
-          <properties />
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/weibo/src/main/java/com/bfd/process/ListProcess.java</url>
-          <line>64</line>
-          <properties />
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/weibo/src/main/java/com/bfd/SpiderMain.java</url>
-          <line>56</line>
-          <properties />
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/weibo/src/main/java/com/bfd/SpiderMain.java</url>
           <line>58</line>
@@ -1327,18 +1458,84 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/weibo/src/main/java/com/bfd/process/ListProcess.java</url>
-          <line>33</line>
+          <line>152</line>
           <properties />
-          <option name="timeStamp" value="19" />
+          <option name="timeStamp" value="38" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/weibo/src/main/java/com/bfd/process/ListProcess.java</url>
-          <line>36</line>
+          <line>151</line>
           <properties />
-          <option name="timeStamp" value="20" />
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/weibo/src/main/java/com/bfd/process/ListProcess.java</url>
+          <line>177</line>
+          <properties />
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/weibo/src/main/java/com/bfd/process/ListProcess.java</url>
+          <line>163</line>
+          <properties />
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/weibo/src/main/java/com/bfd/process/ListProcess.java</url>
+          <line>165</line>
+          <properties />
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/weibo/src/main/java/com/bfd/SpiderMain.java</url>
+          <line>55</line>
+          <properties />
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/weibo/src/main/java/com/bfd/SpiderMain.java</url>
+          <line>56</line>
+          <properties />
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/weibo/src/main/java/com/bfd/process/ListProcess.java</url>
+          <line>64</line>
+          <properties />
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/weibo/src/main/java/com/bfd/process/ListProcess.java</url>
+          <line>66</line>
+          <properties />
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/weibo/src/main/java/com/bfd/process/ListProcess.java</url>
+          <line>81</line>
+          <properties />
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/weibo/src/main/java/com/bfd/process/ListProcess.java</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/weibo/src/main/java/com/bfd/process/ListProcess.java</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/weibo/src/main/java/com/bfd/SpiderMain.java</url>
+          <line>51</line>
+          <properties />
+          <option name="timeStamp" value="69" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="21" />
+      <option name="time" value="70" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1349,21 +1546,13 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/weibo/src/main/java/com/bfd/utils/HttpUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2140">
-          <caret line="124" column="21" selection-start-line="124" selection-start-column="21" selection-end-line="124" selection-end-column="21" />
+        <state relative-caret-position="1800">
+          <caret line="107" column="39" selection-start-line="107" selection-start-column="39" selection-end-line="107" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/weibo/src/main/java/com/bfd/SpiderMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1120">
-          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/weibo/src/main/java/com/bfd/process/ListProcess.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1373,15 +1562,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/weibo/src/main/java/com/bfd/process/ListProcess.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weibo/src/main/java/com/bfd/utils/StringUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="26" column="53" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/weibo/src/main/java/com/bfd/process/Processor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#327#328#0" expanded="true" />
-            <element signature="e#354#355#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1390,8 +1593,36 @@
         <state relative-caret-position="360">
           <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#308#323#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#308#323#0" expanded="false" />
+            <element signature="e#559#560#0" expanded="false" />
+            <element signature="e#587#588#0" expanded="false" />
+            <element signature="e#642#643#0" expanded="false" />
+            <element signature="e#676#677#0" expanded="false" />
+            <element signature="e#724#725#0" expanded="false" />
+            <element signature="e#760#761#0" expanded="false" />
+            <element signature="e#796#797#0" expanded="false" />
+            <element signature="e#833#834#0" expanded="false" />
+            <element signature="e#862#863#0" expanded="false" />
+            <element signature="e#889#890#0" expanded="false" />
+            <element signature="e#927#928#0" expanded="false" />
+            <element signature="e#959#960#0" expanded="false" />
+            <element signature="e#990#991#0" expanded="false" />
+            <element signature="e#1027#1028#0" expanded="false" />
+            <element signature="e#1067#1068#0" expanded="false" />
+            <element signature="e#1106#1107#0" expanded="false" />
+            <element signature="e#1136#1137#0" expanded="false" />
+            <element signature="e#1172#1173#0" expanded="false" />
+            <element signature="e#1210#1211#0" expanded="false" />
+            <element signature="e#1247#1248#0" expanded="false" />
+            <element signature="e#1281#1282#0" expanded="false" />
+            <element signature="e#1314#1315#0" expanded="false" />
+            <element signature="e#1363#1364#0" expanded="false" />
+            <element signature="e#1407#1408#0" expanded="false" />
+            <element signature="e#1436#1437#0" expanded="false" />
+            <element signature="e#1463#1464#0" expanded="false" />
+            <element signature="e#1501#1502#0" expanded="false" />
+            <element signature="e#1533#1534#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1414,9 +1645,185 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/weibo/src/main/java/com/bfd/SpiderMain.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1000">
+          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weibo/src/main/java/com/bfd/process/ListProcess.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weibo/src/main/java/com/bfd/utils/StringUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="26" column="53" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weibo/src/main/java/com/bfd/process/Processor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weibo/src/main/java/com/bfd/Tasks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#308#323#0" expanded="false" />
+            <element signature="e#559#560#0" expanded="false" />
+            <element signature="e#587#588#0" expanded="false" />
+            <element signature="e#642#643#0" expanded="false" />
+            <element signature="e#676#677#0" expanded="false" />
+            <element signature="e#724#725#0" expanded="false" />
+            <element signature="e#760#761#0" expanded="false" />
+            <element signature="e#796#797#0" expanded="false" />
+            <element signature="e#833#834#0" expanded="false" />
+            <element signature="e#862#863#0" expanded="false" />
+            <element signature="e#889#890#0" expanded="false" />
+            <element signature="e#927#928#0" expanded="false" />
+            <element signature="e#959#960#0" expanded="false" />
+            <element signature="e#990#991#0" expanded="false" />
+            <element signature="e#1027#1028#0" expanded="false" />
+            <element signature="e#1067#1068#0" expanded="false" />
+            <element signature="e#1106#1107#0" expanded="false" />
+            <element signature="e#1136#1137#0" expanded="false" />
+            <element signature="e#1172#1173#0" expanded="false" />
+            <element signature="e#1210#1211#0" expanded="false" />
+            <element signature="e#1247#1248#0" expanded="false" />
+            <element signature="e#1281#1282#0" expanded="false" />
+            <element signature="e#1314#1315#0" expanded="false" />
+            <element signature="e#1363#1364#0" expanded="false" />
+            <element signature="e#1407#1408#0" expanded="false" />
+            <element signature="e#1436#1437#0" expanded="false" />
+            <element signature="e#1463#1464#0" expanded="false" />
+            <element signature="e#1501#1502#0" expanded="false" />
+            <element signature="e#1533#1534#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weibo/src/main/java/com/bfd/WeiboSpider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weibo/src/main/java/com/bfd/utils/HttpUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2033">
+          <caret line="124" column="21" selection-start-line="124" selection-start-column="21" selection-end-line="124" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weibo/src/main/java/com/bfd/SpiderMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1064">
+          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weibo/src/main/java/com/bfd/process/ListProcess.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weibo/src/main/java/com/bfd/process/Processor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weibo/src/main/java/com/bfd/Tasks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#308#323#0" expanded="false" />
+            <element signature="e#559#560#0" expanded="false" />
+            <element signature="e#587#588#0" expanded="false" />
+            <element signature="e#642#643#0" expanded="false" />
+            <element signature="e#676#677#0" expanded="false" />
+            <element signature="e#724#725#0" expanded="false" />
+            <element signature="e#760#761#0" expanded="false" />
+            <element signature="e#796#797#0" expanded="false" />
+            <element signature="e#833#834#0" expanded="false" />
+            <element signature="e#862#863#0" expanded="false" />
+            <element signature="e#889#890#0" expanded="false" />
+            <element signature="e#927#928#0" expanded="false" />
+            <element signature="e#959#960#0" expanded="false" />
+            <element signature="e#990#991#0" expanded="false" />
+            <element signature="e#1027#1028#0" expanded="false" />
+            <element signature="e#1067#1068#0" expanded="false" />
+            <element signature="e#1106#1107#0" expanded="false" />
+            <element signature="e#1136#1137#0" expanded="false" />
+            <element signature="e#1172#1173#0" expanded="false" />
+            <element signature="e#1210#1211#0" expanded="false" />
+            <element signature="e#1247#1248#0" expanded="false" />
+            <element signature="e#1281#1282#0" expanded="false" />
+            <element signature="e#1314#1315#0" expanded="false" />
+            <element signature="e#1363#1364#0" expanded="false" />
+            <element signature="e#1407#1408#0" expanded="false" />
+            <element signature="e#1436#1437#0" expanded="false" />
+            <element signature="e#1463#1464#0" expanded="false" />
+            <element signature="e#1501#1502#0" expanded="false" />
+            <element signature="e#1533#1534#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weibo/src/main/java/com/bfd/WeiboSpider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weibo/src/main/java/com/bfd/utils/HttpUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2140">
+          <caret line="124" column="21" selection-start-line="124" selection-start-column="21" selection-end-line="124" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weibo/src/main/java/com/bfd/SpiderMain.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
           <caret line="25" column="42" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1434,11 +1841,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
           <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#327#328#0" expanded="true" />
-            <element signature="e#354#355#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1447,8 +1850,36 @@
         <state relative-caret-position="320">
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#308#323#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#308#323#0" expanded="false" />
+            <element signature="e#559#560#0" expanded="false" />
+            <element signature="e#587#588#0" expanded="false" />
+            <element signature="e#642#643#0" expanded="false" />
+            <element signature="e#676#677#0" expanded="false" />
+            <element signature="e#724#725#0" expanded="false" />
+            <element signature="e#760#761#0" expanded="false" />
+            <element signature="e#796#797#0" expanded="false" />
+            <element signature="e#833#834#0" expanded="false" />
+            <element signature="e#862#863#0" expanded="false" />
+            <element signature="e#889#890#0" expanded="false" />
+            <element signature="e#927#928#0" expanded="false" />
+            <element signature="e#959#960#0" expanded="false" />
+            <element signature="e#990#991#0" expanded="false" />
+            <element signature="e#1027#1028#0" expanded="false" />
+            <element signature="e#1067#1068#0" expanded="false" />
+            <element signature="e#1106#1107#0" expanded="false" />
+            <element signature="e#1136#1137#0" expanded="false" />
+            <element signature="e#1172#1173#0" expanded="false" />
+            <element signature="e#1210#1211#0" expanded="false" />
+            <element signature="e#1247#1248#0" expanded="false" />
+            <element signature="e#1281#1282#0" expanded="false" />
+            <element signature="e#1314#1315#0" expanded="false" />
+            <element signature="e#1363#1364#0" expanded="false" />
+            <element signature="e#1407#1408#0" expanded="false" />
+            <element signature="e#1436#1437#0" expanded="false" />
+            <element signature="e#1463#1464#0" expanded="false" />
+            <element signature="e#1501#1502#0" expanded="false" />
+            <element signature="e#1533#1534#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1458,7 +1889,7 @@
         <state relative-caret-position="240">
           <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1490,15 +1921,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/weibo/src/main/java/com/bfd/utils/HttpUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2140">
-          <caret line="124" column="21" selection-start-line="124" selection-start-column="21" selection-end-line="124" selection-end-column="21" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1553,7 +1978,7 @@
         <state relative-caret-position="129">
           <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1572,51 +1997,110 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/etc/crawl-config.properties">
+    <entry file="file://$PROJECT_DIR$/weibo/src/main/java/com/bfd/Tasks.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        <state relative-caret-position="360">
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#308#323#0" expanded="false" />
+            <element signature="e#559#560#0" expanded="false" />
+            <element signature="e#587#588#0" expanded="false" />
+            <element signature="e#642#643#0" expanded="false" />
+            <element signature="e#676#677#0" expanded="false" />
+            <element signature="e#724#725#0" expanded="false" />
+            <element signature="e#760#761#0" expanded="false" />
+            <element signature="e#796#797#0" expanded="false" />
+            <element signature="e#833#834#0" expanded="false" />
+            <element signature="e#862#863#0" expanded="false" />
+            <element signature="e#889#890#0" expanded="false" />
+            <element signature="e#927#928#0" expanded="false" />
+            <element signature="e#959#960#0" expanded="false" />
+            <element signature="e#990#991#0" expanded="false" />
+            <element signature="e#1027#1028#0" expanded="false" />
+            <element signature="e#1067#1068#0" expanded="false" />
+            <element signature="e#1106#1107#0" expanded="false" />
+            <element signature="e#1136#1137#0" expanded="false" />
+            <element signature="e#1172#1173#0" expanded="false" />
+            <element signature="e#1210#1211#0" expanded="false" />
+            <element signature="e#1247#1248#0" expanded="false" />
+            <element signature="e#1281#1282#0" expanded="false" />
+            <element signature="e#1314#1315#0" expanded="false" />
+            <element signature="e#1363#1364#0" expanded="false" />
+            <element signature="e#1407#1408#0" expanded="false" />
+            <element signature="e#1436#1437#0" expanded="false" />
+            <element signature="e#1463#1464#0" expanded="false" />
+            <element signature="e#1501#1502#0" expanded="false" />
+            <element signature="e#1533#1534#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jsoup/jsoup/1.8.3/17b6b6cb133d73e13e2e1f3550f90d4e23451b10/jsoup-1.8.3-sources.jar!/org/jsoup/select/Elements.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="64" column="5" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/weibo/src/main/java/com/bfd/process/Processor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
-          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#327#328#0" expanded="true" />
-            <element signature="e#354#355#0" expanded="true" />
-          </folding>
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/weibo/src/main/java/com/bfd/Tasks.java">
+    <entry file="file://$PROJECT_DIR$/etc/crawl-config.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#308#323#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="40">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/weibo/src/main/java/com/bfd/SpiderMain.java">
+    <entry file="file://$PROJECT_DIR$/weibo/src/main/java/com/bfd/utils/HttpUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1120">
-          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+        <state relative-caret-position="86">
+          <caret line="106" column="70" selection-start-line="106" selection-start-column="70" selection-end-line="106" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weibo/src/main/java/com/bfd/utils/StringUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="20" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/weibo/src/main/java/com/bfd/process/ListProcess.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="36" column="36" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
+        <state relative-caret-position="162">
+          <caret line="152" column="0" selection-start-line="152" selection-start-column="0" selection-end-line="152" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weibo/src/main/java/com/bfd/SpiderMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="59" column="13" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etc/target.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>

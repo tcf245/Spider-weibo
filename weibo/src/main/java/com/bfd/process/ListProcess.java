@@ -4,6 +4,7 @@ import com.bfd.Tasks;
 import com.bfd.WorkCache;
 import com.bfd.utils.HttpUtils;
 import com.bfd.utils.StringUtils;
+import com.google.gson.Gson;
 import org.apache.commons.io.FileUtils;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -12,8 +13,8 @@ import org.jsoup.select.Elements;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.HashMap;
-import java.util.Map;
+import java.net.URLEncoder;
+import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -61,6 +62,26 @@ public class ListProcess extends Processor {
                 field.put("collect", collect);
                 field.put("comment_count", comment_count);
 
+                if (task.getUrl().contains(URLEncoder.encode("光大银行"))){
+                    //TODO 获取评论人昵称
+                    List<String> commentors = new ArrayList<String>();
+                    String mid = e.select("div[mid]").attr("mid");
+                    String commentUrl = "http://weibo.com/aj/v6/comment/big?ajwvr=6&id=" + mid;
+
+                    content = HttpUtils.httpGet(commentUrl,WorkCache.cookie,WorkCache.charset);
+                    Map<String,Object> comm = gson.fromJson(content,Map.class);
+                    html = (String) ((Map<String,Object>)comm.get("data")).get("html");
+                    html = StringUtils.unicodeToString(html);
+
+                    doc = Jsoup.parse(html);
+                    Elements elements1 = doc.select("div.list_li");
+                    for (Element e1:elements1) {
+                        String commentor = e1.select("div.list_con div.WB_text a").text();
+                        commentors.add(commentor);
+                    }
+                    field.put("commentors",commentors);
+                }
+
                 //数据保存
                 save(field);
 
@@ -81,7 +102,7 @@ public class ListProcess extends Processor {
                 String url = task.getUrl();
                 url = url + "&page=" + i;
                 WorkCache.tasks.put(new Tasks(url, Tasks.Type.LIST, false));
-                System.out.println("add onr task url is : " + url);
+                System.out.println("add one task , url is : " + url);
             }
         }
     }
@@ -93,6 +114,7 @@ public class ListProcess extends Processor {
             FileUtils.writeStringToFile(new File(WorkCache.target),resultData + "\n",true);
             System.out.println(resultData);
         } catch (IOException e) {
+            System.out.println("save exception. data is " + map.toString());
             e.printStackTrace();
         }
     }
@@ -149,6 +171,7 @@ public class ListProcess extends Processor {
                 }
             }
         } catch (Exception e) {
+            System.out.println("get fans num exception .. usercard is " + usercard);
             e.printStackTrace();
             throw new Exception();
         }
@@ -173,9 +196,26 @@ public class ListProcess extends Processor {
 
     public static void main(String[] args) throws Exception {
         ListProcess p = new ListProcess();
+        Gson gson = new Gson();
 
-        String url = "id=1663937380&usercardkey=weibo_mp&refer_flag=1001030103_&type=1&callback=STK_14772408540273";
-        int i = p.getFansNum(url);
+//        try {
+//            Properties pro = new Properties();
+//            pro.load(FileUtils.openInputStream(new File("etc/crawl-config.properties")));
+//            WorkCache.charset = (String) pro.get("charset");
+//            WorkCache.cookie = (String) pro.get("cookie");
+//            WorkCache.target = (String) pro.get("target");
+//            WorkCache.keywords = gson.fromJson("[\"光大银行\",\"黄金邮票\",\"理财早夜市\",\"阳光银行\",\"光大+信用卡\",\"光大+借记卡\",\"光大+理财\"]", List.class);
+//
+//
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
+
+        String url = "http://weibo.com/aj/v6/comment/big?ajwvr=6&id=4032420431067235";
+        String content = HttpUtils.httpGet(url,WorkCache.cookie,WorkCache.charset);
+
+        System.out.println(url);
+        System.out.println(content);
 
     }
 
